@@ -4,14 +4,23 @@ namespace ChallengesWithTestsMark8
 {
     public class ChallengesSet01
     {
-        public bool AreTwoNumbersTheSame(int num1, int num2)
+        public bool AreTwoNumbersTheSame(int num1, int num2) //CONSTRUCTOR
         {
-            throw new NotImplementedException();
+            if(num1 == num2)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public double Subtract(double minuend, double subtrahend)
         {
-            throw new NotImplementedException();
+            var subtract = minuend - subtrahend;
+            return subtract;
+            
         }
 
         public int Add(int number1, int number2)
